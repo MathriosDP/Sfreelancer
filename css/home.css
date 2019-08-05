@@ -17,6 +17,7 @@
     font-size: 7vw;
     color: rgb(254, 135, 15);
     text-shadow: 0 0 5px rgba(222, 138, 54, 0.4);
+<<<<<<< HEAD
     margin-bottom: 0;
 }
 
@@ -24,3 +25,31 @@
     font-size: 3vw;
     margin-top: 0;
 }
+=======
+}
+
+/* menu */
+.navbar {
+    position: fixed; 
+    top: 50px; 
+    right: 150px;
+    width: 100%; 
+   }
+
+   /* links dentro do menu */
+  .navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  /* mouse hover do menu */
+  .navbar a:hover {
+    font-size: 20px;
+    background: #ddd;
+    color: black;
+  }
+
+ 
+>>>>>>> 462f596a6fae09bdd307d548eab4879b7b7248a8
