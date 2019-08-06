@@ -21,3 +21,28 @@
     color: rgb(254, 135, 15);
     text-shadow: 0 0 5px rgba(222, 138, 54, 0.4);
 }
+
+/* menu */
+.navbar {
+    position: fixed; 
+    top: 50px; 
+    right: 150px;
+    width: 100%; 
+   }
+
+   /* links denttro do menu */
+  .navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  /* mouse hover do menu */
+  .navbar a:hover {
+    font-size: 20px;
+    background: #ddd;
+    color: black;
+  }
+
+ 
