@@ -1,25 +1,31 @@
 #home {
     width: 100%;
     height: 75%;
-    text-shadow: rgba(254, 254, 254, 0.9);
     display: flex;
+    line-height: 0.8;
     align-items: center;
     justify-content: center;
-    text-align: center;
-}
-
-.backgroundImg {
+    flex-direction: column;
+    background-size: cover;
     background-image: url("../media/code.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     background-position: center 100%;
+    background-attachment: fixed;
 }
 
-.titles {
+#home h1 {
     font-size: 7vw;
     color: rgb(254, 135, 15);
     text-shadow: 0 0 5px rgba(222, 138, 54, 0.4);
+<<<<<<< HEAD
+    margin-bottom: 0;
+}
+
+#home h3 {
+    font-size: 3vw;
+    margin-top: 0;
+}
+=======
 }
 
 /* menu */
@@ -47,3 +53,4 @@
   }
 
  
+>>>>>>> 462f596a6fae09bdd307d548eab4879b7b7248a8
