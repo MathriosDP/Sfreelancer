@@ -37,11 +37,12 @@
     text-align: center;
     padding: 20px 20px;
     text-decoration: none;
+    border-radius: 12px;
   }
   /* mouse hover do menu */
   .navbar a:hover {
     font-size: 20px;
-    background: #ddd;
+    background: rgba(221, 221, 221, 0.466);
     color: black;
   }
 
